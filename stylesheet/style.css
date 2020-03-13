@@ -47,7 +47,7 @@ li a:hover, .dropdown:hover .dropbtn {
     position: absolute;
     background-color: purple;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px purple;
     z-index: 1;
   }
   
@@ -59,7 +59,7 @@ li a:hover, .dropdown:hover .dropbtn {
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: peachpuff;}
+  .dropdown-content a:hover {background-color: purple;}
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -86,7 +86,7 @@ h1{
 }
 
 h3{
-    color:green;
+    color:purple;
     font-size: 35px;
     font-family: 'Nosifer', cursive;
 }
