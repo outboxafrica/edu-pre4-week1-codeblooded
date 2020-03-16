@@ -1,40 +1,65 @@
-
 body {
-    background-image: url(../images/codeblooded.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-  }
-  .nav-bar{
-    left: 0;
-    background-color: purple;
-    /* text-align:center; */
-    position: fixed;
-    top: 0;   
-    width: 100%; 
-}
 
+  background-image: url(../images/codeblooded.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.nav-bar{
+  left: 0;
+  background-color: purple;
+  /* text-align:center; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
 .nav-bar ul li{
- display: inline;
- list-style: none;
- padding: 10px;
- font-family: 'Lobster', cursive;;
- text-decoration: none;
- overflow: hidden 
+display: inline;
+list-style: none;
+padding: 10px;
+font-family: 'Lobster', cursive;;
+text-decoration: none;
+overflow: hidden
 }
 li {
-    float: left;
-  }
-
+  float: left;
+}
 li a, .dropbtn{
-  color:gold;
-  text-align: center;
-  font-size: 20px;
-  padding: 16px;
-  text-decoration: none;
-  display: inline;
+color:gold;
+text-align: center;
+font-size: 20px;
+padding: 16px;
+text-decoration: none;
+display: inline;
 }
 li a:hover, .dropdown:hover .dropbtn {
+
+  background-color: purple;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: purple;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px purple;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: yellow;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: purple;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+=======
     background-color: purple;
   }
   
@@ -65,71 +90,69 @@ li a:hover, .dropdown:hover .dropbtn {
     display: block;
   }
 
+
 .heading{
-    text-align: center;
-    margin-top: 305px;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 30px;
-    font-family: 'Nosifer', cursive;
-    }
-
+  text-align: center;
+  margin-top: 305px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 30px;
+  font-family: 'Nosifer', cursive;
+  }
 .header{
-    font-family: 'Nosifer', cursive;
+  font-family: 'Nosifer', cursive;
 }
-
 h1{
-    color:yellow;
-    font-size: 60px;
-    font-family: 'Nosifer', cursive;
-    margin-bottom: 0px;
+  color:yellow;
+  font-size: 60px;
+  font-family: 'Nosifer', cursive;
+  margin-bottom: 0px;
 }
-
 h3{
-    color:purple;
-    font-size: 35px;
-    font-family: 'Nosifer', cursive;
-}
 
+  color:purple;
+  font-size: 35px;
+  font-family: 'Nosifer', cursive;
+
+}
 p{
-    font-size: 25px;
-    padding: 10px;
-    margin-top: 0px;
-    color: green;
-    font-family: 'Lobster', cursive;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 0px;
+  color: green;
+  font-family: 'Lobster', cursive;
 }
-
 #welcome-section{
-    text-align: center;
-    margin-top: 30px;
-    margin-right: 35%;
-    margin-left: 35%;
-    font-size:30px;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    }
-
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 35%;
+  margin-left: 35%;
+  font-size:30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  }
 footer{
-    background-color: purple;
-    color: yellow;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-size: 25px;
-    font-family: 'Lobster', cursive;
+  background-color: purple;
+  color: yellow;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+}
+body.profile{
+  background-color: peachpuff;
+  background-image: url("img_tree.png")
 }
 
-body.profile{
-    background-color: peachpuff;
-    background-image: url("img_tree.png")
-    
-}
+
 body.about{
   background-color: peachpuff;
   background-image: url("img_tree.png")
 }
+
 
 img {
 width:400px;
@@ -155,13 +178,13 @@ label{
 }
 
 .flex-container {
-    display: flex;
-    align-content: stretch;
-  }
-  
+  display: flex;
+  align-content: stretch;
+}
 .flex-container > div {
+  margin: 40px;
+  padding: 50px;
+  font-size: 30px;
+
     
-    margin: 40px;
-    padding: 50px;
-    font-size: 30px;
-  }
+
