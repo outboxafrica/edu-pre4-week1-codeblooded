@@ -1,9 +1,9 @@
 body {
-
   background-image: url(../images/codeblooded.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
+
 }
 .nav-bar{
   left: 0;
@@ -14,6 +14,17 @@ body {
   width: 100%;
 
 }
+
+}
+.nav-bar{
+  left: 0;
+  background-color: purple;
+  /* text-align:center; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .nav-bar ul li{
 display: inline;
 list-style: none;
@@ -34,6 +45,7 @@ text-decoration: none;
 display: inline;
 }
 li a:hover, .dropdown:hover .dropbtn {
+
 
   background-color: purple;
 }
@@ -59,7 +71,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-=======
     background-color: purple;
   }
   
@@ -91,6 +102,7 @@ li.dropdown {
   }
 
 
+
 .heading{
   text-align: center;
   margin-top: 305px;
@@ -109,6 +121,12 @@ h1{
   margin-bottom: 0px;
 }
 h3{
+
+
+  color:purple;
+  font-size: 35px;
+  font-family: 'Nosifer', cursive;
+
 
   color:purple;
   font-size: 35px;
@@ -154,6 +172,8 @@ body.about{
 }
 
 
+
+}
 img {
 width:400px;
 height:350px;
@@ -162,6 +182,7 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
+
 .aboutme{
  font-family: 'Lobster', cursive;
  font-size: 25px;
@@ -177,6 +198,7 @@ label{
   
 }
 
+
 .flex-container {
   display: flex;
   align-content: stretch;
@@ -185,6 +207,4 @@ label{
   margin: 40px;
   padding: 50px;
   font-size: 30px;
-
-    
 
