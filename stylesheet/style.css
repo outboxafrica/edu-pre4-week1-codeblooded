@@ -4,16 +4,17 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
+
 }
 .nav-bar{
   left: 0;
   background-color: purple;
   /* text-align:center; */
   position: fixed;
+
   top: 0;   
   width: 100%; 
 }
-
 .nav-bar ul li{
 display: inline;
 list-style: none;
@@ -64,7 +65,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .heading{
   text-align: center;
   margin-top: 305px;
@@ -131,6 +131,7 @@ background-color: peachpuff;
 background-image: url("img_tree.png")
 }
 
+
 img {
 width:400px;
 height:350px;
@@ -164,4 +165,5 @@ color: black;
   margin: 40px;
   padding: 50px;
   font-size: 30px;
+
 }
