@@ -15,15 +15,8 @@ body {
 
 }
 
-}
-.nav-bar{
-  left: 0;
-  background-color: purple;
-  /* text-align:center; */
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+
+
 
 .nav-bar ul li{
 display: inline;
@@ -70,7 +63,7 @@ li.dropdown {
 .dropdown-content a:hover {background-color: purple;}
 .dropdown:hover .dropdown-content {
   display: block;
-}
+
     background-color: purple;
   }
   
@@ -78,22 +71,8 @@ li.dropdown {
     display: inline-block;
   }
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: purple;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px purple;
-    z-index: 1;
-  }
   
-  .dropdown-content a {
-    color: yellow;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+  
   
   .dropdown-content a:hover {background-color: purple;}
   
@@ -173,7 +152,7 @@ body.about{
 
 
 
-}
+
 img {
 width:400px;
 height:350px;
@@ -208,3 +187,4 @@ label{
   padding: 50px;
   font-size: 30px;
 
+}
